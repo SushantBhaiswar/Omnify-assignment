@@ -1,0 +1,89 @@
+.showevents-bg {
+    background-color: black;
+    min-height: 710px;
+    max-height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.showevent-heading {
+    color: red;
+    font-size: 10dvh;
+    font-weight: bolder;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(39, 38, 38);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.showevent-heading h2 {
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.showevent-heading button {
+    height: 40px;
+    width: 100px;
+    border-radius: 6px;
+    border: 0;
+    margin-right: 10px;
+    font-size: large;
+    background-color: rgb(241, 97, 78);
+    font-weight: bold;
+}
+
+.showevent-heading button:hover {
+    background-color: rgb(234, 49, 25);
+}
+
+.showevents-bg .event-button {
+    margin: 170px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.showevents-bg .event-button span {
+    color: beige;
+    font-size: 7dvh;
+    font-weight: bolder;
+}
+
+.showevents-bg .event-button button {
+    height: 50px;
+    width: auto;
+    border-radius: 8px;
+    background-color: rgb(240, 76, 76);
+    margin-top: 20px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.showevents-bg .event-button button:hover {
+    background-color: rgb(230, 25, 25);
+
+}
+
+.event-bx {
+    height: auto;
+    width: auto;
+    background-color: white;
+    box-shadow: 0 1px 5px 0px rgb(243, 243, 243);
+    color: rgb(0, 0, 0);
+    margin: 2px;
+    padding: 10px;
+    text-align: center;
+}
+
+.event-bx:hover {
+    background-color: rgb(211, 203, 203);
+}
+
+.avatar {
+    margin-right: 20px;
+}
